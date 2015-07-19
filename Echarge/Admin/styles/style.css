@@ -1,0 +1,126 @@
+@import url(layout.css); /*布局*/
+@import url(component.css); /*模块部分*/
+
+/*  ==================== 全局通用部分 ====================  */
+* html {
+  filter:expression(document.execCommand("BackgroundImageCache", false, true));
+}
+body,p,td,th,input,select,textarea {
+  font: normal normal 12px Arial;
+  margin: 0;  padding: 0;
+}
+ul,ol,dl,dt,dd,form {
+  margin: 0;  padding: 0;
+}
+ul,ol {
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 12px;
+  margin: 0;  padding: 0;
+}
+img {
+  border: 0;
+}
+textarea {
+  padding: 3px;
+  border: 1px solid #a5d2eb;
+}
+a:link,a:visited {
+  color: #333;
+  text-decoration: none;
+}
+a:hover,a:active {
+  text-decoration: underline;
+}
+.vAlign {
+  vertical-align: middle;
+}
+.linkSkyblue a {
+  color: #5fb0dc;
+}
+.listStyle {
+  padding: 10px;
+}
+.listStyle a,
+.listStyle a:visited {
+  color: #5fb0dc;
+}
+.listStyle li {
+  color: #5fb0dc;
+  background: url(../icon_list_arrow01.gif) no-repeat left 3px;
+  width: 90%;
+  padding-left: 12px;    margin-bottom: 3px;
+}
+.listStyle .fRight {
+  color: #999;
+  float: right;
+}
+#rss {
+  text-align: center;
+  margin: -20px 0 20px 0;
+}
+.textDesc {
+  color: #999;
+}
+.textStrong {
+  color: #f60;
+}
+.textTime {
+  font: 10px Arial;
+  color: #999;
+  margin-left: 5px;
+}
+.btnBlue {
+  display: block;
+  background: url(../btn_blue_l.gif) no-repeat left center;
+  float: left;
+  padding-left: 1px;    margin-right: 3px;
+}
+.btnBlue a {
+  line-height: 17px;
+  color: #0b54ab;
+  background: url(../btn_blue_r.gif) no-repeat right center;
+  float: left;
+  padding: 2px 10px;
+}
+.msgNocice {
+  background: #f1fafd url(../icon_notice.gif) no-repeat 10px center;
+  padding: 10px 5px 10px 40px;    margin: 10px 5px;
+  border: 1px solid #a5d2eb;
+}
+#loader {
+  background-color: #ffc;
+  border: 1px solid #cc0;
+  position: fixed;
+  color: #CC0000;
+  z-index: 1000;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px 15px;
+  /*display: none;*/
+  filter: progid:DXImageTransform.Microsoft.BasicImage(opacity=.65);
+  opacity: 0.65;
+}
+* html #loader {
+  position: absolute;
+}
+.watermark_small {
+  display: block;
+  text-indent: -9999px;
+  width: 31px;    height: 15px;
+  margin-right: 3px;
+  float: left;
+}
+.watermark_promote_small {
+  background: url(../watermark_promote_small.gif) no-repeat;
+}
+.watermark_new_small {
+  background: url(../watermark_new_small.gif) no-repeat;
+}
+.watermark_best_small {
+  background: url(../watermark_best_small.gif) no-repeat;
+}
+.watermark_hot_small {
+  background: url(../watermark_hot_small.gif) no-repeat;
+}

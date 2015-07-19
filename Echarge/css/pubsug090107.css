@@ -1,0 +1,40 @@
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			margin:0 auto;
+		}
+		#key{display:inline;}
+		
+.suggest_key ul{
+			margin-top:-3px;
+			border:1px solid #000;
+			list-style:none;
+			padding:0px;
+		}
+
+
+.suggest_key li{
+			line-height:16px;
+			font-size:12px;
+			padding:2px;
+		}
+.suggest_key span{
+			float:right;
+			font-size:12px;
+			color:#008000;
+			margin-top:-18px;
+		}
+		
+.select_key
+{
+	background:#36C;
+	color:#FFF;
+}		
+.select_key span{
+			float:right;
+			font-size:12px;
+			color:#fff;
+			margin-top:-18px;
+		}

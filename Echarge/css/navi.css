@@ -1,0 +1,21 @@
+.kuangjia {	padding:0 ; margin:0px auto; width:962px; background-color:#ffffff}
+
+
+.kuangjia h3{
+margin-top:1px; padding-left:35px !important;padding-left: 50px; font-weight: bold;  padding-top:12px;
+}
+.kuangjia h3 a{ color:#404040; text-decoration:none; font-size:14px}
+.kuangjia h3 a:hover{ text-decoration:underline}
+.kuangjia ul { display:block; padding-left:25px !important; padding-left: -10px; width: 895px; list-style-type: none;font-size: 12px; margin-top:10px;padding-bottom:12px; margin-bottom:0px;}
+.kuangjia ul li {padding: 0 12px; display: inline; background: url(../images/li_r_bg.gif) no-repeat right 5px; float: left; word-break: keep-all;white-space:nowrap; background-position:center right; line-height:18px}
+
+
+
+a{font-size: 12px; cursor: pointer; color: #1a66b3; FONT-FAMILY: "宋体"; TEXT-DECORATION: none}
+
+a:hover {text-decoration: underline}
+
+.xuxian{background:url(../images/xuxian_x.gif) bottom repeat-x;width: 870px; margin: auto; height:12px!important;height:12px!important;height:1px; font-size:0px;}
+
+
+.clear{ clear:both;}

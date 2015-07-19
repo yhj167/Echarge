@@ -1,0 +1,366 @@
+#container {
+  width: 957px;
+  margin: 0 auto;
+}
+#globalLeft {
+  width: 199px;
+  float: left;
+  padding: 0 4px 0 20px;
+}
+#globalMiddle {
+  width: 713px;
+  float: left;
+}
+#globalRight {
+  width: 238px;
+  display: inline;
+  float: right;
+  padding: 0 0 0 4px;   margin-right: 17px;
+}
+#globalBigRight {
+  width: 717px;
+  float: left;
+}
+#globalBigRight #globalRight {
+  margin: 0;
+}
+.globalFrame {
+  width: 918px;
+  margin-left: 20px;
+}
+
+
+.moduleBg {
+  background: #f5fcfe url(../module_bg.gif) no-repeat;
+  border: 1px solid #a5d2eb;
+  margin-bottom: 4px;
+}
+
+.globalModule {
+  border: 1px solid #a5d2eb;
+  clear: both;
+  margin-bottom: 4px;
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+}
+.globalModule h3 {
+  line-height: 26px;
+  color: #0b54ab;
+  background: #f5fcfe url(../title_bg.gif) no-repeat;
+  height: 26px;
+  padding: 0 8px;
+}
+.globalModuleContent {
+  line-height: 1.6em;
+  color: #5fb0dc;
+  padding: 10px;
+}
+.globalModuleContent a {
+  color: #5fb0dc;
+}
+.globalModule .more {
+  position: absolute;
+  top: 5px;   right: 10px;
+}
+
+
+/*  ==================== 网格方式显示 ====================  */
+.itemGrid {
+  width: 100%;
+  overflow: hidden;
+}
+#globalMiddle .itemGrid .item {
+  text-align: center;
+  width: 121px;   height: 200px;
+  float: left;
+  padding: 18px 18px 10px;
+}
+#globalMiddle .itemGrid .item .pic {
+  margin-bottom: 14px;
+}
+#globalMiddle .itemGrid .item .name,
+#globalMiddle .itemGrid .item .price {
+  margin-bottom: 8px;
+}
+#globalLeft .itemGrid .item {
+  text-align: center;
+  width: 160px;
+  float: left;
+  padding: 18px 18px 10px;
+}
+#globalLeft .itemGrid .item .pic {
+  margin-bottom: 14px;
+}
+#globalLeft .itemGrid .item .name,
+#globalLeft .itemGrid .item .price,
+#globalLeft .itemGrid .item .btnList {
+  margin-bottom: 8px;
+}
+#globalRight .itemGrid .item {
+  overflow: hidden;
+  padding: 10px;
+  zoom: 1;
+}
+#globalRight .itemGrid .item .pic {
+  float: left;
+  margin-right: 10px;
+}
+#globalRight .itemGrid .item .name,
+#globalRight .itemGrid .item .price {
+  margin-bottom: 8px;
+}
+.itemGrid .item .name a {
+  font-weight: bold;
+  color: #0b54ab;
+}
+.itemGrid .item .price {
+  color: #666;
+}
+.itemGrid .item .price .goodsPrice {
+  color: #F60;
+}
+.itemGrid .item .price .marketPrice {
+  color: #0b54ab;
+  background: url(../line_through.gif) repeat-x center 7px;
+}
+.itemGrid .item .btnList {
+  color: #5fb0dc;
+}
+.itemGrid .item .btnList a {
+  text-decoration: underline;
+  color: #5fb0dc;
+}
+.itemGrid .item .btnList a:hover {
+  color: #666;
+}
+.itemGrid .item .pic img {
+  background: #F5FCFE;
+  padding: 4px;
+  border: 1px solid #e0e1e2;
+}
+
+
+/*  ==================== 列表方式显示 ====================  */
+.itemList .item {
+  overflow: hidden;
+  padding: 10px;    margin: 10px;
+  border: 1px solid #e0e1e2;
+  zoom: 1;
+}
+.itemList .item .pic {
+  float: left;
+  position: relative;
+}
+.itemList .item .pic img {
+  background: #F5FCFE;
+  padding: 4px;
+  border: 1px solid #e0e1e2;
+}
+.itemList .item .itemListInfo {
+  float: left;
+  padding-left: 30px;
+}
+.itemList .item .itemListInfo .name img {
+  vertical-align: middle;
+}
+.itemList .item .itemListInfo .name a {
+  font-weight: bold;
+  color: #0b54ab;
+}
+.itemList .item .price {
+  color: #666;
+}
+.itemList .item .price .goodsPrice {
+  color: #F60;
+}
+.itemList .item .price .marketPrice {
+  color: #0b54ab;
+  background: url(../line_through.gif) repeat-x center 7px;
+}
+.itemList .item .brief {
+  color: #999;
+  width: 280px;    height: 30px;
+}
+.itemList .item .btnList {
+  color: #5fb0dc;
+}
+.itemList .item .btnList a {
+  text-decoration: underline;
+  color: #5fb0dc;
+}
+.itemList .item .btnList a:hover {
+  color: #666;
+}
+.itemList .item .sort {
+  color: #0b54ab;
+}
+.itemList .item .name,
+.itemList .item .price,
+.itemList .item .brief,
+.itemList .item .sort,
+.itemList .item .btnList {
+  margin-bottom: 5px;
+}
+
+/*  ==================== 文字方式显示 ====================  */
+.itemText .item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e1e2;
+}
+.itemText .item .name a {
+  font-weight: bold;
+  color: #0b54ab;
+}
+.itemText .item .price {
+  color: #666;
+}
+.itemText .item .price .goodsPrice {
+  color: #F60;
+  margin-right: 25px;
+}
+.itemText .item .price .marketPrice {
+  color: #0b54ab;
+  background: url(../line_through.gif) repeat-x center 7px;
+  margin-right: 25px;
+}
+.itemText .item .brief {
+  color: #999;
+  height: 30px;
+}
+.itemText .item .btnList {
+  color: #5fb0dc;
+}
+.itemText .item .btnList a {
+  text-decoration: underline;
+  color: #5fb0dc;
+}
+.itemText .item .btnList a:hover {
+  color: #666;
+}
+
+.itemText .item .name,
+.itemText .item .price,
+.itemText .item .brief,
+.itemText .item .btnList {
+  margin-bottom: 5px;
+}
+
+
+.tableList {
+  width: 100%;
+  margin: 5px auto 20px auto;
+}
+.tableList th {
+  height:22px;
+  text-align: left;
+  vertical-align: middle;
+  color: #0b54ab;
+  padding: 3px 3px 3px 10px;
+  border-bottom: 2px solid #a5d2eb;
+}
+.tableList td {
+  height:22px;
+  vertical-align: middle;
+  padding: 3px 3px 3px 10px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.tableList tr.last td {
+  border: 0;
+}
+.tableList .textInput {
+  height: 15px;
+  background: #f5fcfe;
+  padding: 3px;   margin-right: 5px;
+  border: 1px solid #a5d2eb;
+}
+
+.tableList .textInput2 {
+  height: 15px;
+  background: #F5F5F5;
+  padding: 3px;   margin-right: 5px;
+  border: 1px solid #999999;
+}
+
+.searchOrder{
+  width: 100%;
+  margin-bottom:15px;
+}
+
+.searchOrder td{
+  vertical-align:middle;
+  padding: 3px 3px 3px 3px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.searchOrder .textInput {
+  height: 15px;
+  background: #f5fcfe;
+  padding: 3px;   margin-right: 5px;
+  border: 1px solid #a5d2eb;
+}
+
+.cartlist {
+  width:100%;
+}
+
+.cartlist th {
+  text-align: center;
+  color: #0b54ab;
+  padding: 5px 5px 5px 5px;
+  border-bottom: 2px solid #a5d2eb;
+}
+
+.cartlist td {
+  vertical-align: middle;
+  text-align:center;
+  padding: 5px 5px 5px 5px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.cartlist .mcimg{
+  width: 50px;
+  height: 45ox;
+}
+
+.cartlist tr.last td {
+  border: 0;
+}
+
+.cartlist .textInput {
+  width:35px;
+  height: 15px;
+  background: #f5fcfe;
+  padding: 3px;   margin-right: 5px;
+  border: 1px solid #a5d2eb;
+}
+
+.pay {
+  width:100%;
+  color:#0b54ab;
+}
+
+.pay th {
+	width:40%;
+	height:23px;
+	vertical-align:bottom;
+	text-align: right;
+	color: #0b54ab;
+	padding: 5px 5px 2px 5px;
+	border-bottom: 2px solid #a5d2eb;
+}
+
+.pay td {
+	height:23px;
+	vertical-align:bottom;
+	text-align:left;
+	padding: 5px 5px 5px 5px;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.pay .textInput {
+  height: 12px;
+  background: #f5fcfe;
+  padding: 3px;   margin-right: 5px;
+  border: 1px solid #a5d2eb;
+}

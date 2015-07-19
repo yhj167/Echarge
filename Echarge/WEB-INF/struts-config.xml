@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<struts-config>
+	<form-beans>
+		<form-bean name="roleForm" type="com.Echarge.Role.Role"/>
+	</form-beans>
+	
+	
+	<action-mappings>
+		<action path="/checkRole" method="execute" type="com.Echarge.Role.Role" name="roleForm" scope="session">
+		</action>
+	</action-mappings>
+</struts-config>
+

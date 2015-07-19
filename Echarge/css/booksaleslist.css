@@ -1,0 +1,187 @@
+body{
+font-size:12px;margin:0;
+}
+
+#reping{
+margin-bottom:9px; padding-left:9pt;
+}
+#left{
+width:180px; float:left;
+}
+#right{
+width:754px; margin-left:193px;
+}
+.main{
+width:950px; margin:0 auto; color:#404040; line-height:18px; background-color:#ffffff
+}
+.main_wai{
+width:962px; margin:0 auto; padding:0 auto; background-color:#ffffff; 
+}
+.position{
+width:948px; margin:0 auto; padding:8px 0 18px 2px; color:#404040; 
+}
+.position_wai{
+width:962px; margin:0 auto;  padding:0 auto; background-color:#ffffff
+}
+
+.left_list{
+width:177px; border:1px solid #D3D3D3; padding:1px; background:#FFF8E5; color:#666;
+}
+.left_list_title{
+background:url(../images/fenlei_bg2.gif) repeat-x; height:23px; line-height:23px; color:#fff; padding-left:11px;
+}
+.chakan_all{
+height:31px; line-height:31px; background:url(../images/chakan.gif) no-repeat; text-align:center; margin-top:14px;
+}
+.right_list_wai{
+width:748px;float:left; border:1px solid #A7A7A7; padding:1px;
+}
+.page_bg_wai{
+padding-bottom:1px; border-bottom:1px solid #A1A1A1; clear:both;
+}
+.page_bg{
+background:#FFF8E5;letter-spacing:1px;
+}
+.xianshi{
+height:23px; line-height:23px; background:#FEEEC2 url(../images/xianshi.gif) no-repeat right; padding-left:20px;width:100px; float:left;
+}
+.fanye{
+width:495px; text-align:right;height:23px; line-height:23px; margin-left:250px;
+}
+.fanye img{
+/*padding:2px 8px 4px;*/
+}
+.tushu{
+width:658px; margin:0 auto; border-bottom:1px solid #8b8b8b; clear:both; padding:22px 0 19px 10px;
+}
+.cover{
+float:left;
+}
+.cover img{
+width:69px; border:1px solid #404040;
+}
+.tushu_right{
+width:584px; margin-left:70px; padding:0
+}
+.name{
+background:url(../images/line1.gif) repeat-x bottom; padding:0 0 2px 21px;
+}
+.intro{
+padding:6px 0 0 21px;
+}
+.yellow_bg{
+background:#FEEEC2; padding:1px 5px 1px 2px;
+}
+.p1{
+margin-top:18px;
+}
+.p2{
+margin-top:12px;
+}
+.goumai{
+text-align:right; height:20px; line-height:20px; margin-top:11px;
+}
+.goumai_padding1{
+/*padding:0 18px 0 6px;*/
+}
+.fanye_bottom{
+width:668px; margin:20px auto 30px; text-align:right; height:15px; line-height:15px;
+}
+.tiaozhuan{
+width:28px; border:1px solid #AFAFAF; margin:0 4px; height:13px; line-height:13px; padding:0
+}
+.fanye_bottom_fd{
+margin-left:39px; height:15px; line-height:15px;
+}
+.fanye_bottom_fd img{
+margin-bottom:2px
+}
+.num_now{
+background:#C30; padding:2px; margin:2px; color:#fff;
+}
+.pinglun{
+padding-left:26px;
+}
+#pageup2{
+margin-right:6px;
+}
+#next,#enter{
+margin-left:6px;
+}
+ul{
+margin:0; padding:0; display:block;
+}
+li{
+list-style-type:none; list-style-position:outside;
+}
+.pointgray{
+padding:12px 24px;
+}
+.pointgray li{
+background:url(../images/point_gray.gif) no-repeat 0 11px; padding-left:8px; line-height:28px;
+}
+.pointorange{
+margin-left:-8px
+}
+.pointorange li{
+background:url(../images/point_orange.gif) no-repeat 0 11px; padding-left:9px; list-style-position:outside; color:#FF7100;
+}
+.clear{
+clear:both;}
+
+/*颜色样式*/
+.gray878787{
+color:#878787; line-height:20px;
+}
+.redC30{
+color:#C30;
+}
+.green{
+color:#688136;
+}
+.del{
+color:#404040; text-decoration:line-through;
+}
+.chakan_wz{
+float:left; filter:Dropshadow(offx=1,offy=0,color=#ffffff) Dropshadow(offx=0,offy=-1,color=#ffffff); text-align:center; cursor:hand;
+}
+
+/*链接样式*/
+.gray666a:link{
+color:#878787; text-decoration:none;
+}
+.gray666a:visited{
+color:#878787; text-decoration:none;
+}
+.gray404040a:link,.gray404040a:visited{
+color:#404040; text-decoration:none;
+}
+.orangeFF7100a:link,.orangeFF7100a:visited{
+color:#FF7100; text-decoration:none; font-weight:bold; text-decoration:none;
+}
+.book:link,.book:visited{
+font-size:14px; color:#1A66B3; text-decoration:none;letter-spacing:1px;
+}
+.gray666a:hover,.gray404040a:hover,.orangeFF7100a:hover,.book:hover
+{
+	text-decoration:underline;
+}
+.num:link,.num:visited{
+background:#FEEEC2; padding:1px 4px; margin:2px; color:#404040; text-decoration:none;
+}
+.num:hover{
+background:#C30; padding:1px 4px; margin:2px; color:#fff; text-decoration:none;
+}
+.chakana:link,.chakana:visited{
+color:#404040; text-decoration:none;height:31px; line-height:31px; background:url(../images/chakan.gif) no-repeat; margin-top:14px; display:block; width:180px; text-align:center;padding-left:3px;
+}
+.chakana:hover{
+color:#404040; text-decoration:none;height:31px; line-height:31px; background:url(../images/chakan_mouseover.gif) no-repeat; margin-top:14px; display:block; width:180px; text-align:center; padding-left:3px;
+}
+
+.list_sorry{margin:40px auto 80px; text-align:center; font-size:14px; width:440px;}
+.list_sorry div{padding-top:20px; margin-left:115px; line-height:24px;}
+.ing{color:#c30; font-weight:bold}
+.buy2{color:#959595}
+
+.position_span{color:#c30;font-weight:bold;}

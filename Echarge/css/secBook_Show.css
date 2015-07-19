@@ -1,0 +1,32 @@
+﻿#middle_flash {
+	PADDING-RIGHT: 0px; height:130px;
+}
+#middle_flash TABLE {
+	HEIGHT: 7px;
+}
+
+#middle_flash_bor {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;HEIGHT: 106px;
+}
+
+.slidecontainer {
+	POSITION: relative; HEIGHT: 1px;
+}
+.slideimages IMG {
+	BORDER-TOP-WIDTH: 0px; DISPLAY: none; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.slideimages A {
+	LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+#slidenum .slideNumber {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; 	
+	}
+#slidenum .slideNumber LI {
+	DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 10px; BACKGROUND: #8e8d8a;clear:both; FLOAT: left; MARGIN: 3px 0px 0px 2px; OVERFLOW: hidden; WIDTH: 12px; CURSOR: hand; COLOR: #000000; LINE-HEIGHT: 12px;  FONT-FAMILY: arial; HEIGHT: 12px; TEXT-ALIGN: center;color:#FFFFFF;
+}
+#slidenum .slideNumber LI.curSlideNumber {
+	 PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: #cc3302; 
+}
+#slidenum {
+	Z-INDEX: 30; left:0px; POSITION: absolute; top: -3px;
+}

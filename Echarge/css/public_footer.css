@@ -1,0 +1,31 @@
+/* CSS Document */
+
+
+/* ============Ò³Î²============ */
+.public_footer{ width:960px; margin:auto; clear:both; border-top:1px solid #707070;
+font-family:ËÎÌå,Arial,Helvetica,sans-serif;
+font-size:12px;
+background:#fff;
+word-break:break-all;
+color:#666;
+line-height:20px;
+text-align:left;
+}
+
+
+
+.public_footer img{ border:0; display:inline;}
+.public_footer a{cursor:pointer; text-decoration:none; color:#1a66b3; font-family:"ËÎÌå"; font-size:12px;}
+.public_footer a:hover{text-decoration:underline; }
+.public_footer_list1{ width:118px; float:left; background:#fff url(../images/homeimg/foot_line.jpg) no-repeat right top; border-top:2px solid #c1c1c1; padding:7px 30px 40px 30px}
+.public_footer_list2{ width:188px; float:left; background:url(../images/homeimg/foot_bg.jpg) repeat-x top; border-top:2px solid #c1c1c1; padding:7px 30px 40px 30px}
+.public_footer_title{ color:#404040; font-size:14px; font-weight:700; background:url(../images/homeimg/foot_point.jpg) no-repeat 0 6px; padding-left:10px}
+.public_footer_info{ padding:15px 0 0 10px; line-height:22px}
+.public_footer_bottom{ clear:both;}
+.public_footer_bottom_simple{ clear:both;margin-top:15px}/*2008-11-11ww*/
+.public_footer_red{ text-align:center; color:#c30; margin-bottom:10px}
+.public_footer_red a:link,.public_footer_red a:visited{ color:#c30; text-decoration:none}
+.public_footer_red a:hover{ text-decoration:underline}
+.public_footer_icp{ color:#666; text-align:center; padding-bottom:20px}
+.public_footer_black_404040:link,.public_footer_black_404040:visited{ color:#404040; text-decoration:none}/*2008-07-09ww*/
+.public_footer_black_404040:hover{  color:#404040;text-decoration:underline}/*2008-07-09ww*/

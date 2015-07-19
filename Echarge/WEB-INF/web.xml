@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <!--中文编码过滤器-->
+  <filter>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <filter-class>com.Echarge.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>GB2312</param-value>
+    </init-param>
+    <init-param>
+      <param-name>ignore</param-name>
+      <param-value>true</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <servlet-name>action</servlet-name>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>SelectServlet</servlet-name>
+    <servlet-class>com.Echarge.Repair.SelectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MenuFlagServlet</servlet-name>
+    <servlet-class>com.Echarge.Authority.MenuFlagServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminDeleteServlet</servlet-name>
+    <servlet-class>com.Echarge.admin.AdminDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserListDeleteServlet</servlet-name>
+    <servlet-class>com.Echarge.User.UserListDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BlackListDeleteServlet</servlet-name>
+    <servlet-class>com.Echarge.User.BlackListDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RateDeleteServlet</servlet-name>
+    <servlet-class>com.Echarge.Rate.RateDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckRole</servlet-name>
+    <servlet-class>com.Echarge.Role.CheckRole</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminCheckServlet</servlet-name>
+    <servlet-class>com.Echarge.admin.AdminCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserCheckServlet</servlet-name>
+    <servlet-class>com.Echarge.User.UserCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DBbackup</servlet-name>
+    <servlet-class>com.Echarge.DBtable.DBbackup</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RateDownloadServlet</servlet-name>
+    <servlet-class>com.Echarge.Rate.RateDownloadServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>SelectServlet</servlet-name>
+    <url-pattern>/SelectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuFlagServlet</servlet-name>
+    <url-pattern>/Admin/MenuFlagServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDeleteServlet</servlet-name>
+    <url-pattern>/Admin/AdminDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserListDeleteServlet</servlet-name>
+    <url-pattern>/User/UserListDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlackListDeleteServlet</servlet-name>
+    <url-pattern>/User/BlackListDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RateDeleteServlet</servlet-name>
+    <url-pattern>/Rate/RateDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckRole</servlet-name>
+    <url-pattern>/Admin/CheckRole</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCheckServlet</servlet-name>
+    <url-pattern>/Admin/AdminCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserCheckServlet</servlet-name>
+    <url-pattern>/User/UserCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DBbackup</servlet-name>
+    <url-pattern>/dbManager/DBbackup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RateDownloadServlet</servlet-name>
+    <url-pattern>/Rate/RateDownloadServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>Admin_Login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+

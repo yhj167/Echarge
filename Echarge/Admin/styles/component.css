@@ -1,0 +1,1359 @@
+		/*  ==================== 页面头部 ====================  */
+		
+		#globalHeader {
+		  overflow: hidden;
+		}
+		#logo {
+		  display: inline;
+		  float: left;
+		  margin: 25px 0 0 17px;
+		}
+      /*  ==================== 顶部菜单 ====================  */
+      #globalTopNav {
+        height: 27px;
+        background: #c3c6ce url(../top_nav.gif) no-repeat left top;
+        display: inline;
+        float: right;
+        padding-left: 12px;   margin: 13px 18px 0 0;
+        overflow: hidden;
+      }
+      #globalTopNav li {
+        color: #FFF;
+        background: url(../top_nav.gif) no-repeat right -54px;
+        line-height: 27px;
+        float: left;
+      }
+      #globalTopNav li a {
+        color: #FFF;
+        display: block;
+        float: left;
+        padding: 1px 10px 0;
+      }
+      #globalTopNav #globalTopNavRight {
+        background: url(../top_nav.gif) no-repeat left -27px;
+        width: 13px;
+      }
+      #globalTopNav #globalTopNavLast {
+        background: none;
+      }
+
+
+      /*  ==================== 主菜单 ====================  */
+      #globalNav {
+        background: url(../nav_bg_all.gif) repeat-x center bottom;
+        width: 949px;  height: 48px;
+        margin: 0 auto;
+      }
+      #globalNav ul {
+        padding: 0 0 8px 15px;
+      }
+      #globalNav #currentPage {
+        background: #71b9e0 url(../nav_bg_current.gif) no-repeat right top;
+        height: 40px;
+        float: left;
+        margin: 0 3px 0 0;
+      }
+      #globalNav #currentPage a {
+        font-size: 14px;
+        color: #FFF;
+        background: url(../nav_bg_current.gif) no-repeat left bottom;
+        height: 20px;
+        float: left;
+        padding: 10px 30px;
+      }
+      #globalNav li {
+        background: #f2f2f2 url(../nav_bg.gif) no-repeat right 0;
+        height: 34px;
+        float: left;
+        padding-right: 3px;   margin: 5px 3px 0 0;
+      }
+      #globalNav li a {
+        background: url(../nav_bg.gif) no-repeat left -34px;
+        height: 14px;
+        overflow: hidden;
+        float: left;
+        padding: 10px 20px 10px 23px;
+      }
+
+
+      /*  ==================== 用户登录 ====================  */
+      #ECS_MEMBERZONE {
+        text-align: right;
+        height: 40px;
+        background: url(../login_shadow.gif) no-repeat left top;
+        padding: 10px 40px 0;
+      }
+      #ECS_MEMBERZONE input,
+      #ECS_MEMBERZONE img {
+        vertical-align: middle;
+      }
+      #ECS_MEMBERZONE .textInput {
+        height: 15px;
+        background: #f5fcfe;
+        padding: 3px;   margin-right: 5px;
+        border: 1px solid #a5d2eb;
+      }
+      #ECS_MEMBERZONE .textInputSign {
+        width: 130px;
+      }
+      #ECS_MEMBERZONE .textCaptcha {
+        width: 60px;
+      }
+      #ECS_MEMBERZONE .welcome {
+	  	float:left;
+        color: #0b54ab;
+        padding-right: 30px;
+      }
+      #ECS_MEMBERZONE .memberInfo {
+        padding-right: 30px;
+      }
+      #ECS_MEMBERZONE .btnList a {
+        color: #f60;
+        background: #ffd9c0;
+        padding: 1px 10px;    margin: 0 8px;
+        border: 1px solid #fca558;
+      }
+      #textForget {
+        color: #F60;
+        text-decoration: underline;
+        margin-left: 10px;
+      }
+
+
+      /*  ==================== 搜索 ====================  */
+      #globalSearch {
+        height: 111px;
+        padding: 65px 0 0 20px;
+        position: relative;
+      }
+      #globalSearch h3 img,
+      #globalSearch h3 span {
+        position: absolute;
+        top: -10px;
+        left: -5px;
+      }
+      #globalSearch .textInput {
+        width: 149px;   height: 14px;
+        padding: 3px;   margin: 0 auto 5px;
+        border: 1px solid #7c9dbe;
+      }
+      #globalSearch select {
+        width: 157px;
+        margin-bottom: 5px;
+        border: 1px solid #7c9dbe;
+      }
+      #globalSearch #adSearch {
+        color: #F60;
+        text-decoration: underline;
+        margin-left: 8px;
+      }
+      #globalSearchKeywords a {
+        white-space: nowrap;
+        margin-right: 5px;
+      }
+
+
+      /*  ==================== 当前位置 ====================  */
+      #urHere h3 {
+        font-weight: normal;
+      }
+      #urHere a {
+        text-decoration: underline;
+        color: #0b54ab;
+        margin: 0 3px;
+      }
+
+
+      /*  ==================== 最新文章 ====================  */
+      #newArticle {
+        color: #5fb0dc;
+        width: 216px;   height: 119px;
+        padding: 10px;    margin: -1px 0 4px;
+        border: 1px solid #a5d2eb;
+      }
+      #newArticle a {
+        color: #5fb0dc;
+      }
+      #newArticle li {
+        margin-bottom: 3px;
+      }
+      #newArticleTab {
+        overflow: hidden;
+      }
+      #newArticleTab li.tabFront {
+        height: 17px;
+        border: 1px solid #a5d2eb;
+        border-bottom: 0;
+        position: relative;
+      }
+      #newArticleTab li {
+        background: #FFF;
+        height: 16px;
+        float: left;
+        padding: 5px 10px 0;    margin-right: 3px;
+        border: 1px solid #c3c6ce;
+        border-bottom: 0;
+        cursor: pointer;
+      }
+      #ECS_ARTICLE_BODY {
+        width: 215px;   height: 110px;
+      }
+
+
+      /*  ==================== 商品分类 ====================  */
+      #categoryTree ul {
+        line-height: 1.6em;
+        padding: 10px;
+      }
+      #categoryTree li {
+        width: 90%;
+        background: url(../icon_list_arrow01.gif) no-repeat left 6px;
+        padding-left: 12px;
+      }
+      #categoryTree li a {
+        color: #5fb0dc;
+      }
+
+
+      /*  ==================== 登陆信息 ====================  */
+      #ECS_CARTINFO {
+        line-height: 1.5em;
+        overflow: hidden;
+        height: 46px;
+        padding: 20px 10px;
+      }
+      #ECS_CARTINFO img,
+      #ECS_CARTINFO span {
+        float: left;
+        margin: 0 10px 0 0;
+      }
+      #ECS_CARTINFO a {
+        color: #0b54ab;
+      }
+
+
+      /*  ==================== 品牌专区 ====================  */
+      #globalBrandInfo {
+        overflow: hidden;
+        padding-bottom: 10px;
+        zoom: 1;
+      }
+      #globalBrandInfo h3 {
+        margin-bottom: 10px;
+      }
+      #globalBrandInfo p {
+        color: #5fb0dc;
+        padding: 3px 10px;
+      }
+      #globalBrandInfo p#globalBrandInfoLogo {
+        float: left;
+      }
+      #globalBrandInfo #globalBrandInfoList {
+        float: left;
+      }
+      #globalBrandInfo p.textDesc {
+        color: #999;
+      }
+      #globalBrandInfo a {
+        color: #5fb0dc;
+        margin-left: 10px;
+      }
+      #brandScroller {
+        text-align: center;
+        overflow-y: auto;
+        height: 217px;
+        padding: 10px;
+      }
+      #brandScroller a {
+        color: #0b54ab;
+      }
+      #brandScroller p {
+        color: #666;
+        padding: 5px;
+      }
+      #brandScroller .textLink {
+        text-align: left;
+      }
+          /*  商品列表品牌专区  */
+          .globalCategory #brandScroller {
+            height: auto;
+          }
+          .globalCategory #brandScroller a {
+            color: #5fb0dc;
+          }
+          .globalCategory #brandScroller p.textLink {
+            width: 90%;
+            background: url(../icon_list_arrow01.gif) no-repeat left 3px;
+            padding: 0 0 0 12px;    margin-bottom: 3px;
+          }
+
+
+      /*  ==================== 订单查询 ====================  */
+      #orderQuery {
+        padding: 0 5px 5px;
+      }
+      #orderQuery h3 {
+        text-align: center;
+        padding: 5px;
+      }
+      #orderQuery .textInput {
+        width: 148px;   height: 14px;
+        border: 1px solid #7c9dbe;
+        padding: 3px;
+      }
+      #ecsOrderQuery {
+        padding-left: 15px;
+      }
+      #ecsOrderQuery input {
+        margin-bottom: 5px;
+      }
+      #ECS_ORDER_QUERY {
+        padding: 5px 15px;
+      }
+      #ECS_ORDER_QUERY li {
+        color: #666;
+        padding: 3px 0;
+        border-bottom: 1px dashed #a5d2eb;
+      }
+      #ECS_ORDER_QUERY li a {
+        text-decoration: underline;
+      }
+      #ECS_ORDER_QUERY li strong {
+        color: #333;
+      }
+
+
+      /*  ==================== 发货单查询 ====================  */
+      #invoiceQuery ul {
+        line-height: 1.4em;
+        height: 167px;
+        overflow-y: auto;
+      }
+      #invoiceQuery li {
+        color: #5fb0dc;
+        background: url(../icon_list_arrow01.gif) no-repeat 10px 7px;
+        padding: 3px 10px 3px 23px;    margin-bottom: 3px;
+        border-bottom: 1px dashed #a5d2eb;
+      }
+      #invoiceQuery form {
+        display: inline;
+      }
+
+
+      /*  ==================== 邮件订阅 ====================  */
+      #emailList {
+         text-align: center;
+         height: 126px;
+       }
+      #emailList h3 {
+        padding: 5px;
+      }
+      #emailList .textInput {
+        width: 148px;   height: 14px;
+        border: 1px solid #7c9dbe;
+        padding: 3px;   margin-bottom: 5px;
+      }
+
+
+      /*  ==================== 销售排行 ====================  */
+      #topList ul {
+        padding: 10px;
+      }
+      #topList li {
+        margin-bottom: 5px;
+      }
+      #topList a {
+        color: #5fb0dc;
+        margin-left: 3px;
+      }
+
+
+      /*  ==================== 站内调查 ====================  */
+      #ECS_VOTE table {
+        text-align: left;
+        width: 215px;
+        margin: 10px;
+      }
+      #ECS_VOTE th {
+        font: bold 12px Arial;
+        color: #0b54ab;
+        padding-left: 20px;
+      }
+      #ECS_VOTE td {
+        padding-left: 20px;
+      }
+      #ECS_VOTE .btnList {
+        padding-top: 10px;
+      }
+      #ECS_VOTE .optionList {
+        line-height: 2em;
+        color: #5fb0dc;
+      }
+
+
+      /*  ==================== 商品详情信息 ====================  */
+      #itemAllInfo {
+        overflow: hidden;
+        zoom: 1;
+        padding: 15px;
+      }
+      #itemPic {
+        float: left;
+        position: relative;
+      }
+      #itemPic .thumb {
+        background: #f5fcfe;
+        padding: 4px;
+        border: 1px solid #cfedff;
+      }
+      #itemPic .waterMark {
+        position: absolute;
+        top: 10px;   right: -40px;
+      }
+      #itemGallery {
+        width: 215px;
+        margin-top: 4px;
+      }
+      #itemGallery li {
+        float: left;
+        margin-right: 5px;
+      }
+      #itemGallery img {
+        background: #f5fcfe;
+        padding: 3px;
+        border: 1px solid #cfedff;
+      }
+      #itemInfoList {
+        line-height: 1.6em;
+        color: #0b54ab;
+        float: left;
+        padding-left: 50px;
+      }
+      #itemInfoList h2 {
+        font: bold 14px Arial;
+        margin-bottom: 8px;
+      }
+      #itemInfoList h2 img {
+        margin-left: 5px;
+      }
+      #itemInfoList .goodsPrice {
+        color: #f60;
+      }
+      #itemInfoList .marketPrice {
+        background: url(../line_through.gif) repeat-x center center;
+      }
+      #itemInfoList .textInput {
+        height: 15px;
+        background: #f5fcfe;
+        padding: 3px;   margin-right: 5px;
+        border: 1px solid #a5d2eb;
+      }
+      #itemInfoList #itemBtnList {
+        margin-top: 10px;
+      }
+      #itemInfoList .itemInfoListTable {
+        margin-bottom: 8px;
+      }
+      #itemInfoList .itemInfoListTable th {
+        text-align: left;
+        color: #333;
+        width: 100px;
+        padding: 2px 8px;
+        border-bottom: 2px solid #dadada;
+      }
+      #itemInfoList .itemInfoListTable td {
+        color: #999;
+        padding: 2px 8px;
+        border-bottom: 1px solid #dadada;
+      }
+      #itemInfoList ul.line {
+        padding: 5px 10px;    margin-bottom: -1px;
+        /*border-top: 1px solid #a5d2eb;
+          border-bottom: 1px solid #a5d2eb;*/
+      }
+
+
+      /*  ==================== 用户评论 ====================  */
+      #globalComments {
+        color: #0b54ab;
+      }
+      #globalComments h3.title {
+        margin-top: 10px;
+        border-top: 1px solid #a5d2eb;
+      }
+      #globalComments th,
+      #globalComments td {
+        text-align: left;
+        padding: 3px 3px 3px 20px;
+      }
+      #globalComments .textInput {
+        height: 15px;
+        background: #f5fcfe;
+        padding: 3px;   margin-right: 5px;
+        border: 1px solid #a5d2eb;
+      }
+      #globalComments textarea {
+        width: 328px;   height: 116px;
+        padding: 3px;
+        border: 1px solid #a5d2eb;
+      }
+      #globalComments .commentsContent {
+        color: #5fb0dc;
+        vertical-align: top;
+      }
+      #globalComments .commentsReContent {
+        color: #f60;
+        vertical-align: top;
+      }
+      #globalComments .commentsLine {
+        border-bottom: 1px dashed #a5d2eb;
+      }
+      #globalComments #globalNoComments {
+        text-align: center;
+        padding: 30px 10px;
+      }
+
+
+      /*  ==================== 相关文章 ====================  */
+      #relativeArticle {
+        min-height: 200px;
+        height: 100% !important;
+        height: 200px;
+      }
+      #relativeArticle ul {
+        width: 90%;
+      }
+
+
+      /*  ==================== 选项卡功能 ====================  */
+      #globalTab .TabBar {
+        height: 22px;
+        border-bottom: 1px solid #a5d2eb;
+      }
+      #globalTab .TabBar li {
+        line-height: 20px;
+        color: #666;
+        background: url(../tab_bg.gif) repeat-x;
+        float: left;
+        padding: 0 10px;    margin: 1px 3px 0 0;
+        border: 1px solid #dadada;
+        border-bottom: 0;
+        position: relative;
+        cursor: pointer;
+      }
+      #globalTab .TabBar li.tag-selected {
+        line-height: 22px;
+        color: #0b54ab;
+        background: #fff;
+        margin: 0 3px -2px 0;
+        border: 1px solid #a5d2eb;
+        border-bottom: 0;
+      }
+      #globalTab .TabBar li.tag-hightlight {
+        background: #f1f1f1;
+      }
+      #globalTab .TabPages {
+        border-top: 0;
+		height:240px;
+      }
+      #globalTab .TabPage {
+        padding: 10px;
+      }
+
+
+      /*  ==================== 商品属性 ====================  */
+      #globalProperties {
+        color: #0b54ab;
+        padding: 10px;
+      }
+      #globalProperties th {
+        text-align: left;
+        font: bold 12px Arial;
+        padding-bottom: 5px;
+      }
+      #globalProperties td {
+        padding: 0 0 5px 10px;
+      }
+      #globalProperties li {
+        margin-bottom: 3px;
+      }
+
+
+      /*  ==================== 商品描述 ====================  */
+      #globalDesc {
+        color: #0b54ab;
+        padding: 10px;
+      }
+      #globalDesc ul {
+        padding: 10px 0;   margin-left: 20px;
+        list-style: square;
+      }
+      #globalDesc li {
+        margin-bottom: 3px;
+      }
+
+
+      /*  ==================== 商品标记 ====================  */
+      #globalTags {
+        padding: 10px;
+      }
+      #ECS_TAGS {
+        color: #0b54ab;
+        padding: 10px;    margin-bottom: 10px;
+        border: 1px solid #f1f1f1;
+      }
+      #ECS_TAGS a {
+        margin-right: 5px;
+      }
+      #globalTags .textInput {
+        width: 300px;   height: 15px;
+        background: #f5fcfe;
+        padding: 3px;   margin-right: 5px;
+        border: 1px solid #a5d2eb;
+      }
+      
+      
+      /*  ==================== 商品列表 ====================  */
+      #globalGoodsList .itemGrid {
+        border-bottom: 1px solid #a5d2eb;
+      }
+      #globalGoodsList .itemGrid .item {
+        height: 268px;
+        margin-bottom: -1px;
+        border-bottom: 1px dashed #a5d2eb;
+        position: relative;
+      }
+      #globalGoodsList .itemGrid .item .pic,
+      #globalGoodsList .itemGrid .item .name,
+      #globalGoodsList .itemGrid .item .price,
+      #globalGoodsList .itemGrid .item .btnList {
+        margin-bottom: 5px;
+      }
+      #globalGoodsList .itemGrid .item .brief {
+        color: #999;
+        text-align: left;
+        height: 30px;
+        margin-bottom: 5px;
+      }
+      #globalGoodsList .itemGrid .item .waterMark {
+        position: absolute;
+        top: 15px;   left: 20px;
+      }
+      #globalGoodsList .itemGrid .item .waterMark img {
+        padding: 0;
+        border: 0;
+      }
+      #globalGoodsList .globalGoodsListMenu {
+        text-align: right;
+        padding: 5px 10px;
+        border-bottom: 1px solid #f1f1f1;
+      }
+      #globalGoodsList .globalGoodsListMenu select,
+      #globalGoodsList .globalGoodsListMenu input,
+      #globalGoodsList .globalGoodsListMenu img {
+        vertical-align: middle;
+      }
+      #globalGoodsList .globalGoodsListMenuDisplay {
+        color: #5fb0dc;
+        padding-right: 30px;
+      }
+      
+      
+      /*  ==================== 搜索页 ====================  */
+      .noSearchResult {
+        text-align: center;
+        height: 160px;
+        padding: 20px 10px;
+      }
+      #globalSearchForm {
+        color: #5fb0dc;
+        padding: 20px 10px;
+      }
+      #globalSearchForm th {
+        color: #0b54ab;
+        text-align: left;
+        width: 50px;
+      }
+      #globalSearchForm td,
+      #globalSearchForm th {
+        padding: 3px 0 3px 5px;
+      }
+      #globalSearchForm input,
+      #globalSearchForm select {
+        vertical-align: middle;
+      }
+      #globalSearchForm .textInput {
+        height: 15px;
+        background: #f5fcfe;
+        padding: 3px;   margin-right: 5px;
+        border: 1px solid #a5d2eb;
+      }
+
+
+      /*  ==================== 分页 ====================  */
+      #pager {
+        color: #0b54ab;
+        text-align: right;
+        clear: both;
+        padding: 8px 10px 8px 0;
+      }
+      #pager a {
+        color: #0b54ab;
+        background: #f1fafd;
+        padding: 3px 10px;
+        border: 1px solid #a5d2eb;
+      }
+      #pager a,
+      #pager select {
+        vertical-align: middle;
+      }
+      #pager span{
+	color: #0b54ab;
+        background: #f1fafd;
+        padding: 3px 10px;
+        border: 1px solid #a5d2eb;
+      }
+      
+      /*  ==================== 对比商品 ====================  */
+      #compareBox {
+        width: 130px;
+        background: #fff;
+        padding: 10px 3px 5px;
+        border: 1px solid #999;
+        position: absolute;
+        right:1px;   top:200px;
+        opacity: 0.8;    filter: progid:DXImageTransform.Microsoft.BasicImage(opacity=0.8); 
+      }
+      #compareBox input {
+        color: #FFF;
+        background: #000;
+        width: 120px;
+        padding-top: 3px;
+        margin-bottom: 5px;
+        border: 1px solid #000;
+      }
+      #compareList {
+        width: 120px;
+        margin: 0px;    padding: 0px;
+      }
+      #compareList li {
+        color: #333;
+        text-align:left;
+        width: 110px;    height: 20px;
+        background: #F1F1F1;
+        margin: 3px 0;   padding: 3px 5px;
+        border: 1px solid #999;
+      }
+      #compareList li img {
+        cursor: pointer;
+      }
+
+
+      /*  ==================== 团购商品 ====================  */
+      #globalGroupProperties table {
+        color: #0b54ab;
+        margin: 10px;
+      }
+      #globalGroupProperties th {
+        font: bold 12px Arial;
+        text-align: left;
+        width: 50px;
+        padding: 3px 0 3px 10px;
+      }
+      #globalGroupProperties td {
+        padding: 3px 0 3px 10px;
+      }
+      #globalGroupProperties .textInput {
+        height: 15px;
+        background: #f5fcfe;
+        padding: 3px;   margin-right: 5px;
+        border: 1px solid #a5d2eb;
+      }
+
+
+      /*  ==================== 团购说明 ====================  */
+      #globalGroupDesc .globalModuleContent {
+        line-height: 1.6em;
+      }
+
+
+      /*  ==================== 拍卖出价记录 ====================  */
+      #globalBidLog {
+        padding: 0 0 20px;
+      }
+      #globalBidLog table {
+        margin: 5px auto;
+      }
+      #globalBidLog th {
+        text-align: left;
+        color: #0b54ab;
+        padding: 3px 10px;
+        border-bottom: 2px solid #dadada;
+      }
+      #globalBidLog td {
+        text-align: left;
+        color: #5fb0dc;
+        padding: 3px 10px;
+        border-bottom: 1px solid #e1e1e1;
+      }
+
+
+      /*  ==================== 拍卖商品列表   团购商品列表 ====================  */
+      #globalAuctionList,
+      #globalGroupList {
+        overflow: hidden;
+        zoom: 1;
+        padding-bottom: 10px;
+      }
+      #globalAuctionList .itemList .item {
+        display: inline;
+        width: 320px;   height: 110px;
+        float: left;
+        margin: 10px -5px 0 10px;
+      }
+      #globalAuctionList .itemList .item .itemListInfo {
+        padding-left: 10px;
+      }
+      #globalGroupList .itemList .item .itemListInfo {
+        padding-left: 30px;
+      }
+      #globalAuctionList .itemList .item .pic,
+      #globalGroupList .itemList .item .pic {
+        float: left;
+        position: static;
+      }
+      #globalAuctionList .globalModuleContent,
+      #globalGroupList .globalModuleContent {
+        text-align: center;
+        color: #f60;
+        padding: 30px 0;
+      }
+      #globalGroupList .itemList .item .itemListInfo th {
+        text-align: left;
+        width: 100px;
+        padding: 2px 10px;
+        border-bottom: 2px solid #dadada;
+      }
+      #globalGroupList .itemList .item .itemListInfo td {
+        padding: 2px 10px;
+        border-bottom: 1px solid #eaeaea;
+      }
+
+
+      /*  ==================== 文章内容 ====================  */
+      #globalArtile h1 {
+        font: bold 16px Arial;
+        text-align: center;
+        color: #0b54ab;
+        margin: 10px 0 30px;
+      }
+      #globalArtile .globalArtilePosted {
+        text-align: right;
+        color: #0b54ab;
+        padding: 0 30px 20px;
+      }
+      #globalArtile .globalArtileNext {
+        text-align: right;
+        color: #0b54ab;
+        padding: 30px 20px 10px;
+      }
+      #globalArtile .globalArtileNext a {
+        text-decoration: underline;
+        color: #0b54ab;
+        margin-right: 20px;
+      }
+      #globalArtile .globalModuleContent {
+        color: #0b54ab;
+        padding: 10px 20px;
+      }
+      #globalArtile .globalModuleContent p,
+      #globalArtile .globalModuleContent li,
+      #globalArtile .globalModuleContent h2,
+      #globalArtile .globalModuleContent h3 {
+        line-height: 1.6em;
+      }
+      #globalArtile .globalArtileRelative {
+        text-align: right;
+        padding: 20px 20px 0;
+      }
+      #globalArtile .globalArtileRelative a {
+        color: #0b54ab;
+        background: url(../icon_attachment.gif) no-repeat 8px center;
+        padding: 3px 10px 3px 25px;
+        border: 1px solid #666;
+      }
+
+
+      /*  ==================== 文章列表 ====================  */
+      #globalArtileList table {
+        color: #999;
+        width: 100%;
+        margin: 10px 0;
+      }
+      #globalArtileList th {
+        color: #333;
+        text-align: left;
+        padding: 2px 10px;
+        border-bottom: 2px solid #a5d2eb;
+      }
+      #globalArtileList td {
+        padding: 5px 10px;
+        border-bottom: 1px solid #e1e1e1;
+      }
+      #globalArtileList td a {
+        color: #0b54ab;
+      }
+
+
+      /*  ==================== 标签云 ====================  */
+      #globalTagsPage a {
+        line-height: 2em;
+        margin: 0 10px;
+      }
+
+
+      /*  ==================== 夺宝奇兵 ====================  */
+      #ECS_SNATCH .textInput {
+        height: 15px;
+        background: #f5fcfe;
+        padding: 3px;   margin-right: 5px;
+        border: 1px solid #a5d2eb;
+      }
+      #ECS_SNATCH input {
+        vertical-align: middle;
+      }
+      #ECS_SNATCH table {
+        color: #0b54ab;
+        margin: 10px 0;
+      }
+      #ECS_SNATCH th {
+        text-align: left;
+        width: 80px;
+        padding: 2px 5px 2px 20px;
+      }
+      #globalPriceList li {
+        padding-bottom: 3px;
+        border-bottom: 1px dashed #e1e1e1;
+      }
+
+
+      /*  ==================== 对比商品 ====================  */
+      #globalCompare table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        table-layout: fixed;
+      }
+      #globalCompare th,
+      #globalCompare td {
+        vertical-align: top;
+        padding: 3px 10px;
+      }
+      #globalCompare th {
+        text-align: left;
+        color: #0b54ab;
+        background: #f1f1f1;
+        width: 120px;
+      }
+      #globalCompare td.btnList img {
+        margin-bottom: 3px;
+      }
+      #globalCompare .globalModuleContent {
+        overflow-x: auto;
+        width: 895px;
+      }
+
+
+      /*  ==================== 选购中心 ====================  */
+      #globalPickOut dl {
+        padding: 20px;
+      }
+      #globalPickOut dt {
+        font: bold 12px Arial;
+        color: #0b54ab;
+        width: 90%;
+        background: url(../icon_list_arrow01.gif) no-repeat left 5px;
+        padding-left: 12px;   margin-bottom: 5px;
+      }
+      #globalPickOut dd.title {
+        background: url(../icon_list_arrow02.gif) no-repeat 10px 5px;
+        margin-bottom: 3px;
+      }
+      #globalPickOut dd {
+        color: #0b54ab;
+        padding-left: 22px;   margin-bottom: 10px;
+      }
+      #globalPickOut dd a {
+        color: #5fb0dc;
+        margin-right: 15px;
+      }
+
+
+      /*  ==================== 所有分类 ====================  */
+      #globalCatalogList dt {
+        background: url(../icon_list_arrow01.gif) no-repeat left center;
+        padding-left: 12px;   margin-bottom: 3px;
+      }
+
+      #globalCatalogList dd.catLevel02 {
+        background: url(../icon_list_arrow02.gif) no-repeat left center;
+      }
+
+      #globalCatalogList dd.catLevel03 {
+        background: url(../icon_list_arrow02.gif) no-repeat left center;
+      }
+
+      #globalCatalogList dd {
+        margin: 0 0 8px 10px;
+      }
+
+      #globalCatalogList dd a {
+        margin: 0 5px;
+        background: url(../icon_list_arrow02.gif) no-repeat left center;
+        padding-left: 10px;
+      }
+
+
+      /*  ==================== 所有品牌 ====================  */
+      #globalBrandList p {
+        width: 170px;   height: 30px;
+        float: left;
+      }
+      #globalBrandList p a {
+        color: #5fb0dc;
+      }
+
+
+      /*  ==================== 活动列表 ====================  */
+      #globalActivity .activityList {
+        margin: 5px 0 10px 0;
+        border-collapse: collapse;
+        border-top: 3px solid;
+        border-color: #a5d2eb;
+      }
+      #globalActivity th {
+        color: #0b54ab;
+        text-align: left;
+        vertical-align: top;
+        width: 100px;
+        padding: 3px 5px 3px 10px;
+      }
+      #globalActivity td {
+        vertical-align: top;
+        padding: 3px 5px 3px 10px;
+      }
+
+
+      /*  ==================== 相关配件 & 购买过此商品的人还购买过 ====================  */
+      #globalFitting .itemGrid .item,
+      #globalBoughtGoods .itemGrid .item {
+        width: 135px;
+      }
+
+
+      /*  ==================== 用户登录注册界面 ====================  */
+      #globalLogin .tableList th,
+      #globalLogin .tableList td {
+        border: 0;
+      }
+      #globalLoginLeft {
+        width: 49%;
+        float: left;
+      }
+      #globalLoginRight {
+        width: 50%;
+        float: left;
+        border-left: 1px solid #a5d2eb;
+      }
+      #pwd_lower,
+      #pwd_middle,
+      #pwd_high {
+        border-bottom: 2px solid #dadada;
+      }
+	  /************************************用户注册页Css**********************************/
+		.regItem li{
+			margin:10px 10px 10px 10px;
+			list-style:none;
+			color:#0b54ab;
+		}
+		.regItem li ul{
+			width:50px;
+			color:#0b54ab;
+			float:left;
+			border-bottom:2px solid #dadada;
+			text-align:center;
+		}
+		.regItem li ol{
+			margin:0px 10px 0px 0px;
+			color:#0b54ab;
+			float:left;
+		}
+		.regItem span{
+			color:#999999;
+		}
+		.regItem .textInput{
+			width:180px;
+			height:12px;
+			border: 1px solid #a5d2eb;
+			padding: 3px;
+			background-color: #f5fcfe;
+		}
+		.regItem .textInput2{
+			height:12px;
+			border: 1px solid #a5d2eb;
+			padding: 3px;
+			background-color: #f5fcfe;
+		}
+		.regItem .radioItem{
+			border: 0px;
+		}
+		.regItem .btnStyle{
+			border: 1px solid #999999;
+			background-color: #FFFFFF;
+			padding: 3px 3px 0px;
+			color: #333333;
+		}
+
+		/**********************************用户登陆页Css*************************************/
+		.login {
+			text-align:left;
+		}
+		.login li{
+			margin-top:10px;
+			margin-bottom:10px;
+			margin-left:300px;
+			margin-right:295px;
+			list-style:none;
+			vertical-align:middle;
+			color:#0b54ab
+		}
+		.login .submitli{
+			text-align:center;
+		}
+		.imgrand{
+			cursor:hand;
+		}
+		.login .textInput{
+			width:180px;
+			height:12px;
+			border: 1px solid #a5d2eb;
+			padding: 3px;
+			background-color: #f5fcfe;
+		}
+		.login .textInput2{
+			height:12px;
+			border: 1px solid #a5d2eb;
+			padding: 3px;
+			background-color: #f5fcfe;
+		}
+      /*  ==================== 用户中心 ====================  */
+      #globalUserCenterInfo h2 {
+        font: bold 14px Arial;
+      }
+      #globalMessage .btnFile {
+        text-align: right;
+        padding: 10px 20px 3px;
+      }
+      #globalMessage .topLine {
+        margin-top: 20px;
+        border-top: 2px solid #a5d2eb;
+      }
+      #globalUserCenterTags .textDel {
+        margin-right: 20px;
+      }
+      #globalUserCenterTags .globalModuleContent {
+        line-height: 2em;
+      }
+
+
+      /*  ==================== 提示消息 ====================  */
+      #globalMsg {
+        line-height: 2em;
+        text-align: center;
+        color: #f60;
+        padding: 30px 0;
+      }
+
+
+      /*  ==================== 网店帮助分类 ====================  */
+      #globalHelp {
+        width: 918px;
+        margin-left: 20px;
+      }
+      #globalHelp th {
+        text-align: left;
+        color: #0b54ab;
+        padding: 10px 30px 0;
+      }
+      #globalHelp td {
+        vertical-align: top;
+        padding: 5px 30px 20px;
+      }
+      #globalHelp td a {
+        color: #5fb0dc;
+      }
+
+
+      /*  ==================== 友情链接 ====================  */
+      #globalLink {
+        width: 910px;
+        padding: 5px 5px 0;    margin-left: 20px;
+      }
+      #globalLink p {
+        padding-bottom: 5px;
+      }
+      #globalLink a {
+        margin-right: 5px;
+      }
+
+
+      /*  ==================== LightBox ====================  */
+      #lightbox{
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        text-align: center;
+        line-height: 0;
+        }
+
+      #lightbox a img{ border: none; }
+
+      #outerImageContainer{
+        position: relative;
+        background-color: #fff;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        }
+
+      #imageContainer{
+        padding: 10px;
+        }
+
+      #loading{
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        line-height: 0;
+        }
+      #hoverNav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        }
+      #imageContainer>#hoverNav{ left: 0;}
+      #hoverNav a{ outline: none;}
+
+      #prevLink, #nextLink{
+        width: 49%;
+        height: 100%;
+        background: transparent url(../blank.gif) no-repeat; /* Trick IE into showing hover */
+        display: block;
+        }
+      #prevLink { left: 0; float: left;}
+      #nextLink { right: 0; float: right;}
+      #prevLink:hover, #prevLink:visited:hover { background: url(../prevlabel.gif) left 15% no-repeat; }
+      #nextLink:hover, #nextLink:visited:hover { background: url(../nextlabel.gif) right 15% no-repeat; }
+
+
+      #imageDataContainer{
+        font: 10px Verdana, Helvetica, sans-serif;
+        background-color: #fff;
+        margin: 0 auto;
+        line-height: 1.4em;
+        }
+
+      #imageData{
+        padding:0 10px;
+        }
+      #imageData #imageDetails{ width: 70%; float: left; text-align: left; }  
+      #imageData #caption{ font-weight: bold; }
+      #imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;  }     
+      #imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;  } 
+
+      #overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 90;
+        width: 100%;
+        height: 500px;
+        background-color: #000;
+        filter:alpha(opacity=60);
+        -moz-opacity: 0.6;
+        opacity: 0.6;
+        }
+
+
+      .clearfix:after {
+        content: "."; 
+        display: block; 
+        height: 0; 
+        clear: both; 
+        visibility: hidden;
+        }
+
+      * html>body .clearfix {
+        display: inline-block; 
+        width: 100%;
+        }
+
+      * html .clearfix {
+        /* Hides from IE-mac \*/
+        height: 1%;
+        /* End hide from IE-mac */
+        } 
+      
+
+
+
+
+/*  ==================== 页面脚部 ====================  */
+#globalFooter {
+  text-align: center;
+  padding: 0 0 20px;
+}
+#footerLine {
+  padding: 0 0 20px 0;
+}
+#copyright,
+#qureyInfo,
+#PoweredBy,
+#address,
+#phone,
+#imList,
+#icpInfo {
+  color: #5fb0dc;
+  margin-bottom: 5px;
+}
+#imList a{
+  margin-right: 15px;
+}
+#footerNav {
+  color: #0b54ab;
+  margin-bottom: 5px;
+}
+#footerNav a {
+  color: #0b54ab;
+  margin: 0 5px;
+}
+
+/* ==================== 管理员登陆页 ========================*/
+input.capital {
+  text-transform: uppercase;
+}
+
+input.button {
+  padding: 2px 8px 0px;
+  margin: 2px 2px;
+  border: 1px solid #2D5082;
+  background: url(../button_bg.gif) repeat-x; 
+}
